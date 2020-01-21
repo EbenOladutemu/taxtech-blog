@@ -48,4 +48,9 @@ export default {
 .nav__title {
   font-size: 1rem;
 }
+@media only screen and (min-width: 35.5em){
+  .nav__title {
+    font-size: 2.6rem;
+  }
+}
 </style>
