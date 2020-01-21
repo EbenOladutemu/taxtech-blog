@@ -3,6 +3,9 @@
     <h2 class="nav__title">
       <router-link to="/">{{ content.title }}</router-link>
     </h2>
+    <h2 class="nav__title">
+      <a href="http://taxtech.com.ng">Taxtech Home</a>
+    </h2>
 
     <transition-group tag="menu" name="nav__item" class="nav__menu">
       <li v-for="label in labels" class="nav__item" :key="label" @click="navBack">
@@ -40,3 +43,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.nav__title {
+  font-size: 1rem;
+}
+</style>
