@@ -17,7 +17,7 @@
 
       <footer class="post__footer">
         <vue-disqus v-if="commentsReady" shortname="taxtech-blog"
-          :key="post" :identifier="post" :url="`https://blog.taxtech.com.ng/read/${post}`"/>
+          :key="post" :identifier="post" :url="`https://blog.taxtech.com.ng/${post}`"/>
       </footer>
     </article>
   </transition>
