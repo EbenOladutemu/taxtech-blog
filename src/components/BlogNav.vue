@@ -1,11 +1,15 @@
 <template>
   <nav class="nav">
-    <h2 class="nav__title">
+    <h3 class="nav__title">
       <router-link to="/">{{ content.title }}</router-link>
+<<<<<<< HEAD
     </h2>
     <h2 class="nav__title">
       <a href="http://taxtech.com.ng">Taxtech Home</a>
     </h2>
+=======
+    </h3>
+>>>>>>> parent of 6222671... Re-edit blog route and change nav header tag
 
     <transition-group tag="menu" name="nav__item" class="nav__menu">
       <li v-for="label in labels" class="nav__item" :key="label" @click="navBack">
