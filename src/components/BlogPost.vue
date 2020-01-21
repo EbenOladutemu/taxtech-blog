@@ -16,8 +16,8 @@
       <section class="post__body rte" v-html="content"></section>
 
       <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="vue-blog-demo"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
+        <vue-disqus v-if="commentsReady" shortname="taxtech-blog"
+          :key="post" :identifier="post" :url="`https://blog.taxtech.com.ng/read/${post}`"/>
       </footer>
     </article>
   </transition>
